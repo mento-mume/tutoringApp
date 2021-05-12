@@ -1,0 +1,30 @@
+{
+  "name": "tutoringapp",
+  "version": "1.0.0",
+  "description": "simple tutoring app",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js",
+    "server":"nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mento-mume/tutoringApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mento-mume/tutoringApp/issues"
+  },
+  "homepage": "https://github.com/mento-mume/tutoringApp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.8",
+    "nodemon": "^2.0.7"
+  }
+}
