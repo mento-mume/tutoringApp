@@ -4,11 +4,6 @@ const {Tutor} = require('../models/tutors')
 
 //get
 router.get('/',async (req,res)=>{
-   res.send('welcome to tutoring App!')
-  
-});
-
-router.get('/',async (req,res)=>{
      const tutor = await Tutor.find().sort('name');
      res.send(tutor);
    
